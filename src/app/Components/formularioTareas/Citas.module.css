@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.cita{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 50%;
+    border: solid 2px greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.containerCitas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.cita input{
+    width: 96%;
+    margin:2%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    padding: 3px;
+}
+
+.cita label{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    size: 0.5rem;
+    margin: 0px 15px 0px 15px;
+}
+
+.cita button{
+    border: 2px solid greenyellow;
+    margin:auto;
+    width:20% ;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.cita button:hover{
+    background-color: greenyellow;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
